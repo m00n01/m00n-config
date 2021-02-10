@@ -175,15 +175,15 @@
 		
 		if_halloween
 		{	
-			"image"		"../console/title_scream_fortress_2017_widescreen"
+//			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		if_fullmoon
 		{
-			"image"		""
+			"image"		"../console/title_fullmoon_widescreen"
 		}
 		if_christmas
 		{
-			"image"		""
+//			"image"		"../console/background_xmas2020_widescreen"
 		}
 	}
 
@@ -288,7 +288,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"170"
-		"tall"			"55"
+		"tall"			"65"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -634,6 +634,47 @@
 			"actionsignallevel" "2"
 			"paintbackground"	"0"
 			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"100 65 165 255"
+		}
+	}
+	
+	"HomeServerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"HomeServerButton"
+		"xpos"			"rs1-10"
+		"ypos"			"165"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"0"
+		
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"LabelText" 		"?"
+			"font"				"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"command" 			"engine connect 138.197.133.71; password flawhud"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1216,20 +1257,21 @@
 
 	"VersionLabel"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"VersionLabel"
-		"font"			"FontRegular12"
-		"labelText"		"FlawHUD v2020.1130"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"VersionLabel"
+		"font"				"FontRegular12"
+		"labelText"			"FlawHUD v2020.1225"
 		"labelText_minmode"	"Streamer Mode"
-		"xpos"			"rs1-5"
-		"xpos_minmode"	"r130"
-		"ypos"			"r13"
-		"wide"			"130"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"				"rs1-5"
+		"xpos_minmode"		"r130"
+		"ypos"				"r13"
+		"ypos_minmode"		"r25"
+		"wide"				"130"
+		"tall"				"10"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"paintbackground"	"0"
 		"sound_depressed"	""
 		"textAlignment"		"east"
@@ -1238,7 +1280,30 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 	}
-
+	
+	"StreamerInfoLabel"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"StreamerInfoLabel"
+		"font"				"FontRegular10"
+		"labelText"			"To re-enable player names, click the above button or disable minmode!"
+		"xpos"				"rs1"
+		"ypos"				"r13"
+		"wide"				"300"
+		"tall"				"10"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"1"
+		"visible_minmode"	"1"
+		"paintbackground"	"0"
+		"sound_depressed"	""
+		"textAlignment"		"east"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
+	}
+	
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1337,8 +1402,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TF2SettingsButton"
-		"xpos"			"-5"
-		"ypos"			"-2"
+		"xpos"			"-10"
+		"ypos"			"-1"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -1419,49 +1484,6 @@
 		}
 	}
 
-	"ConsoleButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"ConsoleButton"
-		"xpos"			"20"
-		"ypos"			"0"
-		"zpos"			"12"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-
-		"pin_to_sibling"			"AchievementsButton"
-		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"font"			"CustomIcons"
-			"use_proportional_insets" "1"
-			"textAlignment"	"center"
-			"default"		"1"
-			"actionsignallevel" "2"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"	"HoverWhite"
-		}
-	}
-
 	"ReplayButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1473,7 +1495,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"ConsoleButton"
+		"pin_to_sibling"			"AchievementsButton"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 
@@ -1591,6 +1613,92 @@
 		}
 	}
 
+	"TrainingModeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"TrainingModeButton"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"12"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"ItemTestButton"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"	"center"
+			"default"		"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"	"HoverWhite"
+		}
+	}
+
+	"CreateServerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"CreateServerButton"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"12"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"			"TrainingModeButton"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"CustomIcons"
+			"use_proportional_insets" "1"
+			"textAlignment"	"center"
+			"default"		"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"	"HoverWhite"
+		}
+	}
+
 	"CoachPlayersButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1602,7 +1710,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"ItemTestButton"
+		"pin_to_sibling"			"CreateServerButton"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 

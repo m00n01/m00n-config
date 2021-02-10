@@ -27,25 +27,25 @@ Scheme
 		"HoverWhite"				"214 206 200 255"
 		//---------------------------------------------
 		// Gameplay
-		"Overheal"					"0 170 127 255"
-		"OverhealPulse"				"0 170 127 200"
-		"LowHealth"					"190 20 20 255"
-		"LowHealthPulse"			"190 20 20 200"
-		"LowAmmo"					"190 20 20 255"
-		"LowAmmoPulse"				"190 20 20 200"
-		"PositiveValue"				"0 170 127 255"
-		"NegativeValue"				"190 20 20 200"
-		"TargetHealth"				"0 230 169 255"
+		"Overheal"					"0 255 162 255"
+		"OverhealPulse"				"0 255 162 200"
+		"LowHealth"					"255 0 0 255"
+		"LowHealthPulse"			"255 0 0 200"
+		"LowAmmo"					"255 0 0 255"
+		"LowAmmoPulse"				"255 0 0 200"
+		"PositiveValue"				"0 255 162 255"
+		"NegativeValue"				"255 0 0 200"
+		"TargetHealth"				"0 193 228 255"
 		"TargetDamage"				"255 255 0 255"
 		//---------------------------------------------
 		// Crosshair Colors
-		"Crosshair"					"250 255 0 255"
+		"Crosshair"					"0 255 2 255"
 		"CrosshairDamage"			"255 0 0 255"
 		//---------------------------------------------
 		// Ubercharge
-		"UberCharged1"				"0 170 127 255"
-		"UberCharged2"				"0 120 127 255"
-		"UberCharging"				"0 170 127 255"
+		"UberCharged1"				"0 255 174 255"
+		"UberCharged2"				"0 205 174 255"
+		"UberCharging"				"35 200 147 255"
 		//---------------------------------------------
 		// Loadout Gradient
 		"LOGScout"					"75 112 130 255"

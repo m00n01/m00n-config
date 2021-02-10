@@ -361,7 +361,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"10"
+				"ypos"			"20"
 			}
 
 			"zpos"				"100"
@@ -406,7 +406,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"10"
+				"ypos"		"20"
 			}
 
 			"wide"			"80"
@@ -565,10 +565,10 @@
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"
-			"defaultfgcolor_override"	"White"
-			"defaultbgcolor_override"	"DarkGrey"
-			"selectedfgcolor_override"	"DarkGrey"
-			"selectedbgcolor_override"	"White"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"DarkGrey"
+			"selectedFgColor_override"	"DarkGrey"
+			"selectedBgColor_override"	"White"
 			"maxchars"		"18"
 
 			"consume_mode"
@@ -591,7 +591,7 @@
 
 			"fixed_paintkit"
 			{
-				"ypos"		"30"
+				"ypos"		"40"
 			}
 
 			"zpos"			"100"

@@ -65,7 +65,7 @@
 		"ypos"				"c-90"
 		"zpos"				"1"
 		"wide"				"340"
-		"tall"				"180"
+		"tall"				"185"
 		"autoResize"		"3"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -116,7 +116,7 @@
 		
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "White"
 	}
 
 	"MenuBG"

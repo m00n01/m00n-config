@@ -230,10 +230,10 @@
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
 			"xpos"			"15"
-			"ypos"			"22"
+			"ypos"			"25"
 			"wide"			"140"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"				"HudFontSmallest"
@@ -257,7 +257,7 @@
 			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"10"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"FontRegular10"
@@ -291,7 +291,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
-			"ypos"			"10"
+			"ypos"			"0"
 			"wide"			"260"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
@@ -308,7 +308,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"rs1-45"
+				"ypos"			"rs1-22"
 				"wide"			"170"
 				"tall"			"35"
 				"proportionaltoparent"	"1"
@@ -325,10 +325,10 @@
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"35"
-					"ypos"			"rs1+2"
+					"ypos"			"15"
 					"zpos"			"10"
 					"wide"			"50"
-					"tall"			"15"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"FontRegular10"
@@ -339,7 +339,8 @@
 
 					if_mini
 					{
-						"xpos"			"40"
+						"xpos"			"25"
+						"ypos"			"25"
 					}
 				}
 
@@ -348,10 +349,10 @@
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
 					"xpos"			"85"
-					"ypos"			"rs1+2"
+					"ypos"			"15"
 					"zpos"			"0"
 					"wide"			"50"
-					"tall"			"15"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"FontRegular10"
@@ -359,6 +360,11 @@
 					"textAlignment"	"east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+
+					if_mini
+					{
+						"ypos"			"25"
+					}
 				}
 
 				"ProgressBarsContainer"
@@ -366,7 +372,7 @@
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"35"
-					"ypos"			"rs1-10"
+					"ypos"			"rs1-20"
 					"wide"			"100"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
@@ -430,7 +436,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"0"
-				"ypos"			"53"
+				"ypos"			"62"
 				"wide"			"f0"
 				"tall"			"p0.45"
 				"visible"		"1"
