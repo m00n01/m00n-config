@@ -7,7 +7,7 @@ FlawHud Color Customizations and custom crosshair
 
 Minecraft XP gain and level up hit/killsound
 
-## `/cfg/`
+## `cfg`
 
 [mastercomfig](https://mastercomfig.com/) `medium_low` preset with:
 
