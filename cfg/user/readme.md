@@ -14,3 +14,4 @@
 `↓` =LoadoutC
 
 `RAlt` = Resupply Button. No need to touch the resupply cabinet to restore health, metal, or ammo!
+ 
