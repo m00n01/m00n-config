@@ -59,8 +59,8 @@
 			"zpos"			"1"
 			"wide"			"260"
 			"tall"			"209"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"paintborder"	"1"
 			"border"		"PanelBorder"
 			"bgcolor_override"	"Grey"
@@ -138,11 +138,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"FontBold14"
+		"font"			"FontBold16"
 		"labelText"		"%selectiontitle%"
 		"textAlignment"	"center"
 		"xpos"			"c-130"
-		"ypos"			"c-129"
+		"ypos"			"c-140"
 		"wide"			"260"
 		"tall"			"33"
 		"autoResize"	"1"
@@ -504,10 +504,10 @@
 		"default"		"0"
 		"Command"			"close"
 		"paintbackground"	"0"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override" 	"LightRed"
 		"depressedFgColor_override" "White"
@@ -533,7 +533,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"close"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -558,7 +558,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"addtocart"
-		
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

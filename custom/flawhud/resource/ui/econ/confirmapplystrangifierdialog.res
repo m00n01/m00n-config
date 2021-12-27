@@ -122,7 +122,7 @@
 			"inventory_image_type"	"1"
 		}
 	}
-	
+
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"
@@ -190,7 +190,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "White"
-		"centerwrap"	"1"
 	}
 
 	"CancelButton"

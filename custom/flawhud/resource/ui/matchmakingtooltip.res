@@ -13,7 +13,7 @@
 		"PaintBackgroundType"	"2"
 		"border"				"MainMenuBGBorder"
 		"mouseinputenabled"		"0"
-		
+
 		"TipLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -22,9 +22,9 @@
 			"textAlignment"		"center"
 			"xpos"				"10"
 			"ypos"				"10"
-			"ypos_minmode"		"9999"
 			"zpos"				"2"
 			"wide"				"0"
+			"wide_minmode"		"0"
 			"tall"				"0"
 			"autoResize"		"0"
 			"pinCorner"			"0"

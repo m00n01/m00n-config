@@ -5,9 +5,9 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HudTournament"
 		"xpos"					"0"
-		"ypos"					"25"
+		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"f0"
 		"proportionaltoparent"	"1"
 
 		"team1_player_base_offset_x"	"-75"
@@ -78,7 +78,7 @@
 			"zpos"			"1"
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"ShadowBlack"
-			
+
 			"PanelBG"
 			{
 				"ControlName"	"ImagePanel"
@@ -100,6 +100,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"FontRegular10"
+				"font_minmode"	"FontIcons10"
 				"xpos"			"1"
 				"ypos"			"25"
 				"zpos"			"5"
@@ -110,7 +111,6 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
-				"visible_minmode"	"0"
 			}
 
 			"classimage"
@@ -723,7 +723,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TournamentInstructionsLabel"
-		"font"					"FontBold12"
+		"font"					"FontBold10"
 		"xpos"					"c-125"
 		"ypos"					"30"
 		"wide"					"250"
@@ -752,7 +752,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"TournamentInstructionsLabelShadow"
-		"font"					"FontBold12"
+		"font"					"FontBold10"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"wide"					"250"
@@ -795,7 +795,7 @@
 		"ypos"					"cs-0.1"
 		"wide"					"40"
 		"tall"					"40"
-		"zpos"					"4"
+		"zpos"					"5"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -803,6 +803,7 @@
 		"wrap"					"0"
 		"labelText"				"%tournamentstatelabel%"
 		"textAlignment"			"center"
+		"fgcolor"				"White"
 		"proportionaltoparent"	"1"
 	}
 
@@ -811,11 +812,11 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountdownLabelShadow"
 		"font"					"FontBold22"
-		"xpos"					"cs-0.45"
-		"ypos"					"cs-0.95"
+		"xpos"					"cs-0.48"
+		"ypos"					"cs-0.48"
 		"wide"					"40"
 		"tall"					"40"
-		"zpos"					"3"
+		"zpos"					"4"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"

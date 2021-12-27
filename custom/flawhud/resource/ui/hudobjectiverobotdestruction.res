@@ -11,15 +11,15 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-
-		"left_steal_edge_offset"	"97"
-		"right_steal_edge_offset"	"97"
 		"robot_x_offset"	"78"
 		"robot_y_offset"	"47"
 		"robot_x_step"		"23"
 		"robot_y_step"		"0"
 		"color_blue"		"84 111 127 255"
 		"color_red"			"171 59 59 255"
+
+		"left_steal_edge_offset"	"97"
+		"right_steal_edge_offset"	"97"
 
 		"if_hybrid"
 		{
@@ -110,8 +110,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"0"
-		"ypos"				"r115"
+		"xpos"				"c-180"
+		"ypos"				"r102"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"100"
@@ -163,7 +163,7 @@
 			"textAlignment"		"west"
 			"labelText"			"%flagvalue%"
 			"font"				"FontBold22"
-			"fgcolor"			"TanLight"
+			"fgcolor"			"White"
 			"proportionalToParent"	"1"
 		}
 		"FlagValueShadow"
