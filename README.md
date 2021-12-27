@@ -1,7 +1,7 @@
 
 ## `flawhud`
 
-FlawHud Color Customizations and custom crosshair
+flawHud color customizations and custom crosshair
 
 ## `hitsound`
 
