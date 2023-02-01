@@ -1,0 +1,163 @@
+//===========================================================================================================================
+
+event FillCounter
+{
+	RunEvent CounterDigitLoop 						0.0
+
+	Animate Counter10 								Alpha 		"255" 							Linear 	5.5 	0.0
+	Animate Counter10 								Alpha 		"0" 							Linear 	11.0 	0.0
+	Animate Counter20 								Alpha 		"255" 							Linear 	11.0 	0.0
+	Animate Counter20 								Alpha 		"0" 							Linear 	16.5 	0.0
+	Animate Counter30 								Alpha 		"255" 							Linear 	16.5 	0.0
+	Animate Counter30 								Alpha 		"0" 							Linear 	22.0 	0.0
+	Animate Counter40 								Alpha 		"255" 							Linear 	22.0 	0.0
+	Animate Counter40 								Alpha 		"0" 							Linear 	27.5 	0.0
+	Animate Counter50 								Alpha 		"255" 							Linear 	27.5 	0.0
+	Animate Counter50 								Alpha 		"0" 							Linear 	33.0 	0.0
+	Animate Counter60 								Alpha 		"255" 							Linear 	33.0 	0.0
+	Animate Counter60 								Alpha 		"0" 							Linear	38.5 	0.0
+	Animate Counter70 								Alpha 		"255" 							Linear 	38.5 	0.0
+	Animate Counter70 								Alpha 		"0" 							Linear 	44.0 	0.0
+	Animate Counter80 								Alpha 		"255" 							Linear 	44.0 	0.0
+	Animate Counter80 								Alpha 		"0" 							Linear 	49.5 	0.0
+	Animate Counter90 								Alpha 		"255" 							Linear 	49.5 	0.0
+	Animate Counter90 								Alpha 		"0" 							Linear 	55.0 	0.0
+	Animate Counter100 								Alpha 		"255" 							Linear 	55.0 	0.0
+}
+
+event CounterDigit
+{
+	Animate Counter0 								Alpha 		"255" 							Linear 	0.0 	0.0
+	Animate Counter0 								Alpha 		"0" 							Linear 	0.55 	0.0
+	Animate Counter1 								Alpha 		"255" 							Linear 	0.55 	0.0
+	Animate Counter1 								Alpha 		"0" 							Linear 	1.1 	0.0
+	Animate Counter2 								Alpha		"255" 							Linear 	1.1 	0.0
+	Animate Counter2 								Alpha 		"0" 							Linear 	1.65 	0.0
+	Animate Counter3 								Alpha 		"255" 							Linear 	1.65 	0.0
+	Animate Counter3 								Alpha 		"0" 							Linear 	2.2 	0.0
+	Animate Counter4 								Alpha 		"255" 							Linear 	2.2 	0.0
+	Animate Counter4 								Alpha 		"0" 							Linear 	2.75 	0.0
+	Animate Counter5 								Alpha 		"255" 							Linear 	2.75 	0.0
+	Animate Counter5								Alpha 		"0" 							Linear 	3.3 	0.0
+	Animate Counter6 								Alpha 		"255" 							Linear 	3.3 	0.0
+	Animate Counter6 								Alpha 		"0" 							Linear 	3.85 	0.0
+	Animate Counter7 								Alpha 		"255" 							Linear 	3.85 	0.0
+	Animate Counter7 								Alpha 		"0" 							Linear 	4.4 	0.0
+	Animate Counter8 								Alpha 		"255" 							Linear 	4.4 	0.0
+	Animate Counter8 								Alpha 		"0" 							Linear 	4.95 	0.0
+	Animate Counter9 								Alpha 		"255" 							Linear 	4.95 	0.0
+}
+
+event CounterDigitLoop
+{
+	RunEvent CounterDigit 							0.0
+	Animate Counter9 								Alpha 		"0" 							Linear 	0.0 	0.0
+
+	RunEvent CounterDigit 							5.5
+	Animate Counter9 								Alpha 		"0" 							Linear 	5.5 	0.0
+
+	RunEvent CounterDigit 							11.0
+	Animate Counter9 								Alpha 		"0" 							Linear 	11.0 	0.0
+
+	RunEvent CounterDigit 							16.5
+	Animate Counter9 								Alpha 		"0" 							Linear 	16.5 	0.0
+
+	RunEvent CounterDigit 							22.0
+	Animate Counter9 								Alpha 		"0" 							Linear 	22.0 	0.0
+
+	RunEvent CounterDigit 							27.5
+	Animate Counter9 								Alpha 		"0" 							Linear 	27.5 	0.0
+
+	RunEvent CounterDigit 							33.0
+	Animate Counter9 								Alpha 		"0" 							Linear 	33.0 	0.0
+
+	RunEvent CounterDigit 							38.5
+	Animate Counter9 								Alpha 		"0" 							Linear 	38.5 	0.0
+
+	RunEvent CounterDigit 							44.0
+	Animate Counter9 								Alpha 		"0" 							Linear 	44.0 	0.0
+
+	RunEvent CounterDigit 							49.5
+	Animate Counter9 								Alpha 		"0" 							Linear 	49.5 	0.0
+
+	Animate Counter9 								Alpha 		"0" 							Linear 	55.0 	0.0
+}
+
+event ClearCounter
+{
+	StopEvent FillCounter							0.0
+	StopEvent CounterDigit 							0.0
+	StopEvent CounterDigitLoop 						0.0
+
+	Animate Counter10 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter20								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter30 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter40 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter50 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter60 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter70 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter80 								Alpha 		"0"								Linear 	0.0 	0.0
+	Animate Counter90 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter100 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter0 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter1 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter2 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter3 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter4 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter5 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter6 								Alpha 		"0" 							Linear	0.0 	0.0
+	Animate Counter7 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter8 								Alpha 		"0" 							Linear 	0.0 	0.0
+	Animate Counter9 								Alpha 		"0" 							Linear 	0.0 	0.0
+}
+
+//===========================================================================================================================
+
+event ScopeDie
+{
+	Animate HudScope Position "9999 9999" Linear 0.0 0.0
+}
+
+//===========================================================================================================================
+event MenuOpen
+{	
+    RunEvent ScopeDie								0.0
+	StopEvent MenuClose 							0.0
+
+	Animate HudMenu 								Alpha 			"255"						Linear 	0.0 	0.1
+	Animate HudMenu 								SelectionAlpha 	"255"						Linear 	0.0 	0.1
+	Animate HudMenu 								FgColor			"FgColor"					Linear 	0.0 	0.1
+	Animate HudMenu 								MenuColor		"MenuColor"					Linear 	0.0 	0.1
+	Animate HudMenu 								ItemColor		"ItemColor"					Linear 	0.0 	0.1
+	Animate HudMenu 								TextScan		"1"							Linear 	0.0 	0.1
+
+	Animate HudMenu									Blur			"1"							Linear	0.0		0.01
+	
+	RunEvent ClearCounter 							0.0
+}
+
+event MenuPulse
+{
+	Animate HudMenu									Blur			"7"							Linear	0.0		0.1
+	Animate HudMenu									Blur			"2"							Deaccel	0.1		0.1
+	Animate HudMenu									Blur			"7"							Linear	0.2		0.1
+	Animate HudMenu									Blur			"2"							Deaccel	0.3		0.1
+	Animate HudMenu									Blur			"7"							Linear	0.4		0.1
+	Animate HudMenu									Blur			"2"							Deaccel	0.5		0.1
+	Animate	HudMenu									Blur			"1"							Deaccel	0.6		0.4
+
+	RunEvent ClearCounter 							0.0
+}
+
+event MenuClose
+{
+	Animate HudMenu 								Alpha 			"0" 						Linear 	0.0 	1
+	Animate HudMenu 								SelectionAlpha 	"0" 						Linear 	0.0 	1
+	Animate HudMenu 								FgColor			"0 0 0 0" 					Linear 	0.0 	1
+	Animate HudMenu 								MenuColor		"0 0 0 0" 					Linear 	0.0 	1
+	Animate HudMenu 								ItemColor		"0 0 0 0" 					Linear 	0.0 	1
+	
+	RunEvent FillCounter 							0.0
+}
+
+//===========================================================================================================================

@@ -1,0 +1,56 @@
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup						ypos		"-50"								Linear 	0.0 	0.001
+	Animate HudTournamentSetup						ypos		"27"								Spline 	0.001	0.1
+}
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup						ypos		"27"								Linear 	0.0 	0.001
+	Animate HudTournamentSetup						ypos		"-50"								Spline 	0.001 	0.6
+}
+
+event TeamStatus_PlayerDead
+{
+	SetVisible 	SkullPanel  																				1 0
+	Animate 	SkullPanel 							ypos 		"24" 								Accel 	0.1 	0.4
+}
+event TeamStatus_PlayerAlive
+{
+	Animate 	SkullPanel 							ypos 		"-30" 								Accel 	0.1		0.2
+}
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue 							Alpha		"255"								Linear 	0.0 	0.0
+}
+event ActiveTimerDim
+{
+	Animate TimePanelValue 							Alpha		"160"								Linear 	0.0 	0.0
+}
+
+//===========================================================================================================================
+
+event FlagOutline{}
+
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
+
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+
+event XPSourceShow_Positive{}
+event XPSourceShow_Negative{}
+
+event HudSnapShotReminderIn{}
+
+event HasNotificationsBlink{}
+event HasNotificationsBlinkStop{}
+
+event HasMOTDBlink{}
+event HasNotificationsBlink{}
+
+event ObjectiveCompletionFanfare{}
+event ObjectiveCompletionFanfareEnd{}
+
+//===========================================================================================================================

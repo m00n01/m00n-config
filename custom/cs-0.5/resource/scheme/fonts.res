@@ -1,0 +1,355 @@
+"Scheme"
+{
+	"Fonts"
+	{
+		"m0refont9"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"9"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont10"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont11"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont11Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont12"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont12Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont14"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"14"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont16"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont16Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont18"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont18Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont18Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont20"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont20Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont24"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont24Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont24Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont26"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"26"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont30"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont30Outline"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"30"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont32"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont32Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont36"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"36"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		
+		"UberTargetID"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		
+		"VerdanaMenu"										//Only Used For Create Server Button
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+
+		"VerdanaSmallest"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"6"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		
+		"Default"
+		{
+			"1"
+			{
+				"name"		  								"Surface-Medium"
+				"tall"      								"14"
+				"weight"									"0"
+				"antialias" 								"1"
+			}
+			"2"
+			{
+				"name"		 								"Surface-Medium"
+				"tall"      								"18"
+				"weight"									"0"
+				"antialias" 								"1"
+			}
+			"3"
+			{
+				"name"		  								"Surface-Medium"
+				"tall"      								"22"
+				"weight"									"0"
+				"antialias" 								"1"
+			}
+			"4"
+			{
+				"name"		  								"Surface-Medium"
+				"tall"      								"24"
+				"weight"									"0"
+				"antialias" 								"1"
+			}
+			"5"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"weight"									"0"
+				"antialias"									"1"
+			}
+		}
+	}
+
+	"CustomFontFiles"
+	{
+		"8"
+		{
+			"font" 		"resource/scheme/fonts/surface_medium.otf"
+			"name" 		"Surface-Medium"
+		}
+		"9"
+		{
+			"font" 		"resource/scheme/fonts/surface_numbers.otf"
+			"name" 		"Surface-Numbers"
+		}
+	}
+}
