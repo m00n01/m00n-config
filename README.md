@@ -1,7 +1,7 @@
 
-## `flawhud`
+## `cs 0.5`
 
-flawHud color customizations and custom crosshair
+cool hud, black circle crosshair with hit damage indicator
 
 ## `hitsound`
 
