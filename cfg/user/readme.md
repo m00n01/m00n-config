@@ -15,4 +15,4 @@
 
 `RAlt` = Resupply Button. No need to touch the resupply cabinet to restore health, metal, or ammo!
  
-## Note: Medic Script kindaaa broken but also not idk
+# Note: Medic Script kindaaa broken but also not idk
