@@ -55,7 +55,7 @@ Default binds except some.
 
 `bind mouse3 slot4` // This rebinds your mouse3 to your 4th slot, for a spy, it would be your disguise kit. Quick disguise!
 
-`bind space +rj;`
+`bind space +rj;`<br/>
 `bind ctrl +crouch;` // Your spacebar automatically jump crouches for you. Makes any movement for me a lot easier and smoother.
 
 ## `modules.cfg`
