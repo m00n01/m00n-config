@@ -2,50 +2,50 @@
 
 Creds to Aar for the config.
 
-///
-//Misc Scripts
-/// 
+`///`
+`//Misc Scripts`
+`/// `
 
-bind f6 stfu
+`bind f6 stfu`
 
-alias stfu_0 "hud_saytext_time 0;  voice_modenable 0; alias stfu stfu_1"
-alias stfu_1 "hud_saytext_time 12; voice_modenable 1; alias stfu stfu_0"
-stfu_1
+`alias stfu_0 "hud_saytext_time 0;  voice_modenable 0; alias stfu stfu_1"`
+`alias stfu_1 "hud_saytext_time 12; voice_modenable 1; alias stfu stfu_0"`
+`stfu_1`
 
-bind "F5" "player_ready_toggle" // MVM Ready Toggle
+`bind "F5" "player_ready_toggle" // MVM Ready Toggle`
 
-// More Info On Scoreboard
-alias +tabgraph "+showscores; net_graph 4"
-alias -tabgraph "-showscores; net_graph 0; timeleft"
+`// More Info On Scoreboard`
+`alias +tabgraph "+showscores; net_graph 4"`
+`alias -tabgraph "-showscores; net_graph 0; timeleft"`
 
-alias graphtoggle incrementvar net_graph 0 4 4
+`alias graphtoggle incrementvar net_graph 0 4 4`
 
-bind tab +tabgraph
-bind - graphtoggle
+`bind tab +tabgraph`
+`bind - graphtoggle`
 
-// press f8 to toggle viewmodels on and off
-bindtoggle f8 "r_drawviewmodel"
+`// press f8 to toggle viewmodels on and off`
+`bindtoggle f8 "r_drawviewmodel"`
 
-// press f7 to toggle viewmodel minmode on and off
-bindtoggle f7 "tf_use_min_viewmodels"
+`// press f7 to toggle viewmodel minmode on and off`
+`bindtoggle f7 "tf_use_min_viewmodels"`
 
-// press v to toggle your mic on or off, rather than holding it
-bind v enablemic
-alias enablemic "+voicerecord ; bind v disablemic"
-alias disablemic "-voicerecord ; bind v enablemic"
+`// press v to toggle your mic on or off, rather than holding it`
+`bind v enablemic`
+`alias enablemic "+voicerecord ; bind v disablemic"`
+`alias disablemic "-voicerecord ; bind v enablemic"`
 
-// call votes quickly
-bind o "callvote"
+`// call votes quickly`
+`bind o "callvote"`
 
-// Loudout Scripts
+`// Loudout Scripts`
 
-exec loadouts/init
+`exec loadouts/init`
 
-bind LEFTARROW "loadouts.A"
-bind UPARROW "loadouts.B"
-bind RIGHTARROW "loadouts.C"
-bind DOWNARROW "loadouts.D"
-bind RALT "loadouts.resup"
+`bind LEFTARROW "loadouts.A"`
+`bind UPARROW "loadouts.B"`
+`bind RIGHTARROW "loadouts.C"`
+`bind DOWNARROW "loadouts.D"`
+`bind RALT "loadouts.resup"`
 
 That's all the important binds to know.
 
