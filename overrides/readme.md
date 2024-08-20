@@ -60,10 +60,10 @@ Default binds except some.
 
 ## `modules.cfg`
 
-[dynamic_background](https://docs.comfig.app/latest/customization/modules/#map-background)=itemtest
-[bandwidth](https://docs.comfig.app/latest/customization/modules/#bandwidth)=6.0Mbps
-[lighting_ex](https://docs.comfig.app/latest/customization/modules/#lighting-ex)=high
-[hud_player_model](https://docs.comfig.app/latest/customization/modules/#player-model)=on
+[dynamic_background](https://docs.comfig.app/latest/customization/modules/#map-background)=itemtest<br/>
+[bandwidth](https://docs.comfig.app/latest/customization/modules/#bandwidth)=6.0Mbps<br/>
+[lighting_ex](https://docs.comfig.app/latest/customization/modules/#lighting-ex)=high<br/>
+[hud_player_model](https://docs.comfig.app/latest/customization/modules/#player-model)=on<br/>
 
 Each hyperlink goes to the specific module documentation to show what it does.
 
