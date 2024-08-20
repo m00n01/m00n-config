@@ -1,24 +1,25 @@
 @echo off
 cls
-IF NOT EXIST "..\..\hl2.exe" (goto :err01)
+IF NOT EXIST "..\..\hl2.exe" (goto :WAIT)
 goto :DOIT
 
-:err01
+:WAIT
 color c
 echo Error Code : E01 (not in custom folder)
-pause
-exit
+goto :ASK
 
-:err02
-color c
-echo Error Code : E02 (your Team Fortress 2 game is not valid or it has broken steam appid)
-pause
-exit
+:ASK
+set /P c=This program might not be in the CUSTOM folder, continue? [continue or cancel]
+if /I %c% EQU continue goto :DOIT
+if /I %c% EQU cancel goto :EXIT2
 
 :DOIT
 echo Removing cache files.
 del /F /S *.cache
 goto EXIT
+
+:EXIT2
+exit
 
 :EXIT
 color a
