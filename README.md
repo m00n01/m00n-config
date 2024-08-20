@@ -9,7 +9,7 @@ Minecraft XP gain and level up hit/killsound
 
 ## `cfg`
 
-[mastercomfig](https://mastercomfig.com/) `medium_low` preset with:
+[mastercomfig](https://comfig.app/) `medium_low` preset with:
 
 - `null-cancelling-movement-addon`
 - `no-soundscapes-addon`
